@@ -64,16 +64,6 @@ contract VotingTest is Test {
 
          (Voting.Candidate[] memory candidates, string memory description, uint endAt) = voting.getInfo(0);
 
-        // Логируем данные по отдельности
-        // console.log("Description - ", description);
-        // console.log("End At - ", endAt);
-
-        // // Логируем данные кандидатов отдельно
-        // for (uint i = 0; i < candidates.length; i++) {
-        //     console.log("Candidate Address - ", candidates[i].candidateAddress);
-        //     console.log("Candidate Votes - ", candidates[i].votes);
-            
-        // }
 
     }
 
